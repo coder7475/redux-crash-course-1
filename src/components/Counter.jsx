@@ -12,6 +12,7 @@ const Counter = () => {
         <div className="flex gap-2 justify-center items-center">
            <button 
             className="border-2 p-1" 
+            // Always call the action on dispatch
             onClick={() => dispatch(increment())}
             >
                 Increment
