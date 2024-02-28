@@ -9,6 +9,8 @@ export const counterSlice = createSlice({
     initialState,
     reducers: {
         increment: (state) => {
+            // redux uses Immer for immutability 
+            // automatically immutable
             state.value += 1;
         },
         decrement: (state) => {
